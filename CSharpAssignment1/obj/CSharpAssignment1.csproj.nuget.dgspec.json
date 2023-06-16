@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tung Xuan Do\\source\\repos\\CSharpAssignment1\\CSharpAssignment1\\CSharpAssignment1.csproj": {}
+    "C:\\Users\\Tung Xuan Do\\Documents\\GitHub\\Practice-C-Sharp-WinForms\\CSharpAssignment1\\CSharpAssignment1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tung Xuan Do\\source\\repos\\CSharpAssignment1\\CSharpAssignment1\\CSharpAssignment1.csproj": {
+    "C:\\Users\\Tung Xuan Do\\Documents\\GitHub\\Practice-C-Sharp-WinForms\\CSharpAssignment1\\CSharpAssignment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tung Xuan Do\\source\\repos\\CSharpAssignment1\\CSharpAssignment1\\CSharpAssignment1.csproj",
+        "projectUniqueName": "C:\\Users\\Tung Xuan Do\\Documents\\GitHub\\Practice-C-Sharp-WinForms\\CSharpAssignment1\\CSharpAssignment1.csproj",
         "projectName": "CSharpAssignment1",
-        "projectPath": "C:\\Users\\Tung Xuan Do\\source\\repos\\CSharpAssignment1\\CSharpAssignment1\\CSharpAssignment1.csproj",
+        "projectPath": "C:\\Users\\Tung Xuan Do\\Documents\\GitHub\\Practice-C-Sharp-WinForms\\CSharpAssignment1\\CSharpAssignment1.csproj",
         "packagesPath": "C:\\Users\\Tung Xuan Do\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tung Xuan Do\\source\\repos\\CSharpAssignment1\\CSharpAssignment1\\obj\\",
+        "outputPath": "C:\\Users\\Tung Xuan Do\\Documents\\GitHub\\Practice-C-Sharp-WinForms\\CSharpAssignment1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

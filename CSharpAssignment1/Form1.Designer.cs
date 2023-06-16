@@ -483,6 +483,7 @@
             this.ClientSize = new System.Drawing.Size(694, 532);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Taxi Company";
             this.Load += new System.EventHandler(this.Form1_Load);
