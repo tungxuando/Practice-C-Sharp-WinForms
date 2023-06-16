@@ -1,0 +1,17 @@
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\bin\Debug\net6.0-windows\CSharpAssignment1.exe
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\bin\Debug\net6.0-windows\CSharpAssignment1.deps.json
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\bin\Debug\net6.0-windows\CSharpAssignment1.runtimeconfig.json
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\bin\Debug\net6.0-windows\CSharpAssignment1.dll
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\bin\Debug\net6.0-windows\CSharpAssignment1.pdb
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\obj\Debug\net6.0-windows\CSharpAssignment1.csproj.AssemblyReference.cache
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\obj\Debug\net6.0-windows\CSharpAssignment1.Form1.resources
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\obj\Debug\net6.0-windows\CSharpAssignment1.csproj.GenerateResource.cache
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\obj\Debug\net6.0-windows\CSharpAssignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\obj\Debug\net6.0-windows\CSharpAssignment1.AssemblyInfoInputs.cache
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\obj\Debug\net6.0-windows\CSharpAssignment1.AssemblyInfo.cs
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\obj\Debug\net6.0-windows\CSharpAssignment1.csproj.CoreCompileInputs.cache
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\obj\Debug\net6.0-windows\CSharpAssignment1.dll
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\obj\Debug\net6.0-windows\refint\CSharpAssignment1.dll
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\obj\Debug\net6.0-windows\CSharpAssignment1.pdb
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\obj\Debug\net6.0-windows\CSharpAssignment1.genruntimeconfig.cache
+C:\Users\Tung Xuan Do\source\repos\CSharpAssignment1\CSharpAssignment1\obj\Debug\net6.0-windows\ref\CSharpAssignment1.dll
