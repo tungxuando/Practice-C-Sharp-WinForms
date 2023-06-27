@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.dateTimePicker_dayOfWeek = new System.Windows.Forms.DateTimePicker();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.longestDistance = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.averageDistance = new System.Windows.Forms.Label();
@@ -50,11 +52,11 @@
             this.endTimeLabel = new System.Windows.Forms.Label();
             this.dayOfWeekLabel = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.numericUpDown_taxiId = new System.Windows.Forms.NumericUpDown();
             this.addTaxiButton = new System.Windows.Forms.Button();
             this.taxiIdLabel = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
             this.bestEarningDay_radioButton = new System.Windows.Forms.RadioButton();
             this.averageTimeLength_radioButton = new System.Windows.Forms.RadioButton();
@@ -67,16 +69,24 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.importToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tabPage3.SuspendLayout();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.statisticToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addTaxiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.detailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.homeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tabPage2.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_taxiId_home)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_distance)).BeginInit();
             this.tabControl1.SuspendLayout();
-            this.tabPage4.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_taxiId)).BeginInit();
-            this.tabPage2.SuspendLayout();
+            this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dateTimePicker_dayOfWeek
@@ -90,20 +100,20 @@
             this.dateTimePicker_dayOfWeek.TabIndex = 15;
             this.dateTimePicker_dayOfWeek.Value = new System.DateTime(2023, 6, 13, 0, 0, 0, 0);
             // 
-            // tabPage3
+            // tabPage2
             // 
-            this.tabPage3.Controls.Add(this.longestDistance);
-            this.tabPage3.Controls.Add(this.label5);
-            this.tabPage3.Controls.Add(this.averageDistance);
-            this.tabPage3.Controls.Add(this.label4);
-            this.tabPage3.Controls.Add(this.totalIncome);
-            this.tabPage3.Controls.Add(this.label3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 24);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(686, 474);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Statistic";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.tabPage2.Controls.Add(this.longestDistance);
+            this.tabPage2.Controls.Add(this.label5);
+            this.tabPage2.Controls.Add(this.averageDistance);
+            this.tabPage2.Controls.Add(this.label4);
+            this.tabPage2.Controls.Add(this.totalIncome);
+            this.tabPage2.Controls.Add(this.label3);
+            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Size = new System.Drawing.Size(686, 474);
+            this.tabPage2.TabIndex = 2;
+            this.tabPage2.Text = "Statistic";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // longestDistance
             // 
@@ -294,27 +304,27 @@
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Location = new System.Drawing.Point(0, 31);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(694, 502);
             this.tabControl1.TabIndex = 0;
             // 
-            // tabPage4
+            // tabPage3
             // 
-            this.tabPage4.Controls.Add(this.numericUpDown_taxiId);
-            this.tabPage4.Controls.Add(this.addTaxiButton);
-            this.tabPage4.Controls.Add(this.taxiIdLabel);
-            this.tabPage4.Location = new System.Drawing.Point(4, 24);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(686, 474);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Add Taxi";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.tabPage3.Controls.Add(this.numericUpDown_taxiId);
+            this.tabPage3.Controls.Add(this.addTaxiButton);
+            this.tabPage3.Controls.Add(this.taxiIdLabel);
+            this.tabPage3.Location = new System.Drawing.Point(4, 24);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(686, 474);
+            this.tabPage3.TabIndex = 3;
+            this.tabPage3.Text = "Add Taxi";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // numericUpDown_taxiId
             // 
@@ -343,23 +353,23 @@
             this.taxiIdLabel.TabIndex = 5;
             this.taxiIdLabel.Text = "Taxi id:";
             // 
-            // tabPage2
+            // tabPage4
             // 
-            this.tabPage2.Controls.Add(this.button1);
-            this.tabPage2.Controls.Add(this.bestEarningDay_radioButton);
-            this.tabPage2.Controls.Add(this.averageTimeLength_radioButton);
-            this.tabPage2.Controls.Add(this.mostActiveTime_radioButton);
-            this.tabPage2.Controls.Add(this.label6);
-            this.tabPage2.Controls.Add(this.label2);
-            this.tabPage2.Controls.Add(this.richTextBox1);
-            this.tabPage2.Controls.Add(this.dataGridView1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(686, 474);
-            this.tabPage2.TabIndex = 4;
-            this.tabPage2.Text = "Details";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.tabPage4.Controls.Add(this.button1);
+            this.tabPage4.Controls.Add(this.bestEarningDay_radioButton);
+            this.tabPage4.Controls.Add(this.averageTimeLength_radioButton);
+            this.tabPage4.Controls.Add(this.mostActiveTime_radioButton);
+            this.tabPage4.Controls.Add(this.label6);
+            this.tabPage4.Controls.Add(this.label2);
+            this.tabPage4.Controls.Add(this.richTextBox1);
+            this.tabPage4.Controls.Add(this.dataGridView1);
+            this.tabPage4.Location = new System.Drawing.Point(4, 24);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(686, 474);
+            this.tabPage4.TabIndex = 4;
+            this.tabPage4.Text = "Details";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -476,32 +486,89 @@
             this.importToolStripMenuItem.Text = "Import";
             this.importToolStripMenuItem.Click += new System.EventHandler(this.importToolStripMenuItem_Click);
             // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.ContextMenuStrip = this.contextMenuStrip1;
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.homeToolStripMenuItem,
+            this.statisticToolStripMenuItem,
+            this.addTaxiToolStripMenuItem,
+            this.detailsToolStripMenuItem,
+            this.aboutToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 136);
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // statisticToolStripMenuItem
+            // 
+            this.statisticToolStripMenuItem.Name = "statisticToolStripMenuItem";
+            this.statisticToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.statisticToolStripMenuItem.Text = "Statistic";
+            this.statisticToolStripMenuItem.Click += new System.EventHandler(this.statisticToolStripMenuItem_Click);
+            // 
+            // addTaxiToolStripMenuItem
+            // 
+            this.addTaxiToolStripMenuItem.Name = "addTaxiToolStripMenuItem";
+            this.addTaxiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addTaxiToolStripMenuItem.Text = "Add Taxi";
+            this.addTaxiToolStripMenuItem.Click += new System.EventHandler(this.addTaxiToolStripMenuItem_Click);
+            // 
+            // detailsToolStripMenuItem
+            // 
+            this.detailsToolStripMenuItem.Name = "detailsToolStripMenuItem";
+            this.detailsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.detailsToolStripMenuItem.Text = "Details";
+            this.detailsToolStripMenuItem.Click += new System.EventHandler(this.detailsToolStripMenuItem_Click);
+            // 
+            // homeToolStripMenuItem
+            // 
+            this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
+            this.homeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.homeToolStripMenuItem.Text = "Home";
+            this.homeToolStripMenuItem.Click += new System.EventHandler(this.homeToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(694, 532);
+            this.ContextMenuStrip = this.contextMenuStrip1;
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Taxi Company";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_taxiId_home)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_distance)).EndInit();
             this.tabControl1.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_taxiId)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_taxiId)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -509,7 +576,7 @@
 
         #endregion
 
-        private TabPage tabPage3;
+        private TabPage tabPage2;
         private TabPage tabPage1;
         private DateTimePicker dateTimePicker_dayOfWeek;
         private DateTimePicker dateTimePicker_endTime;
@@ -522,7 +589,7 @@
         private Label endTimeLabel;
         private Label dayOfWeekLabel;
         private TabControl tabControl1;
-        private TabPage tabPage4;
+        private TabPage tabPage3;
         private Button addTaxiButton;
         private Label taxiIdLabel;
         private NumericUpDown numericUpDown_taxiId;
@@ -538,7 +605,7 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem fileToolStripMenuItem;
         private ToolStripMenuItem exportToolStripMenuItem;
-        private TabPage tabPage2;
+        private TabPage tabPage4;
         private DataGridView dataGridView1;
         private Label label6;
         private Label label2;
@@ -548,5 +615,12 @@
         private RadioButton averageTimeLength_radioButton;
         private RadioButton mostActiveTime_radioButton;
         private ToolStripMenuItem importToolStripMenuItem;
+        private NotifyIcon notifyIcon1;
+        private ContextMenuStrip contextMenuStrip1;
+        private ToolStripMenuItem aboutToolStripMenuItem;
+        private ToolStripMenuItem statisticToolStripMenuItem;
+        private ToolStripMenuItem addTaxiToolStripMenuItem;
+        private ToolStripMenuItem detailsToolStripMenuItem;
+        private ToolStripMenuItem homeToolStripMenuItem;
     }
 }

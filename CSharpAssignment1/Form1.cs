@@ -335,6 +335,30 @@ namespace CSharpAssignment1
             return $"{averageMinutes / 60} hours and {averageMinutes % 60} minutes";
         }
 
-        
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutForm aboutForm = new AboutForm();
+            aboutForm.Show();
+        }
+
+        private void statisticToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabPage2;
+        }
+
+        private void addTaxiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabPage3;
+        }
+
+        private void detailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabPage4;
+        }
+
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabPage1;
+        }
     }
 }

@@ -32,3 +32,4 @@ C:\Users\Tung Xuan Do\Documents\GitHub\Practice-C-Sharp-WinForms\CSharpAssignmen
 C:\Users\Tung Xuan Do\Documents\GitHub\Practice-C-Sharp-WinForms\CSharpAssignment1\obj\Debug\net6.0-windows\CSharpAssignment1.pdb
 C:\Users\Tung Xuan Do\Documents\GitHub\Practice-C-Sharp-WinForms\CSharpAssignment1\obj\Debug\net6.0-windows\CSharpAssignment1.genruntimeconfig.cache
 C:\Users\Tung Xuan Do\Documents\GitHub\Practice-C-Sharp-WinForms\CSharpAssignment1\obj\Debug\net6.0-windows\ref\CSharpAssignment1.dll
+C:\Users\Tung Xuan Do\Documents\GitHub\Practice-C-Sharp-WinForms\CSharpAssignment1\obj\Debug\net6.0-windows\CSharpAssignment1.AboutForm.resources
